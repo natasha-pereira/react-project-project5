@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.articles {
+  width: 800px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.articles h3 {
+  cursor: pointer;
+}
+
+.articles p {
+  text-align: justify;
+  padding: 10px;
+  margin: 5px;
+}
+
+.newsImg {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
