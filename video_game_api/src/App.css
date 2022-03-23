@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.searchSection {
+  flex: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+}
+
+.searchSection input {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.searchSection button {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.dealsSection {
+  width: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.gamesList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.games {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.gameImg {
+  width: 80%;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.dealsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dealsList div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: cadetblue;
+  color: white;
+}
